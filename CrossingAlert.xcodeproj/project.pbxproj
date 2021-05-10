@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4925A3BB264910CD0054354F /* CrossingAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A3BA264910CD0054354F /* CrossingAlertApp.swift */; };
+		4925A3BD264910CD0054354F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A3BC264910CD0054354F /* ContentView.swift */; };
+		4925A3BF264910CE0054354F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4925A3BE264910CE0054354F /* Assets.xcassets */; };
+		4925A3C2264910CE0054354F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4925A3C1264910CE0054354F /* Preview Assets.xcassets */; };
+		4925A3CD264910CE0054354F /* CrossingAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A3CC264910CE0054354F /* CrossingAlertTests.swift */; };
+		4925A3D8264910CE0054354F /* CrossingAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925A3D7264910CE0054354F /* CrossingAlertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4925A3C9264910CE0054354F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4925A3AF264910CD0054354F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4925A3B6264910CD0054354F;
+			remoteInfo = CrossingAlert;
+		};
+		4925A3D4264910CE0054354F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4925A3AF264910CD0054354F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4925A3B6264910CD0054354F;
+			remoteInfo = CrossingAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4925A3B7264910CD0054354F /* CrossingAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossingAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925A3BA264910CD0054354F /* CrossingAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingAlertApp.swift; sourceTree = "<group>"; };
+		4925A3BC264910CD0054354F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4925A3BE264910CE0054354F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4925A3C1264910CE0054354F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4925A3C3264910CE0054354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4925A3C8264910CE0054354F /* CrossingAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossingAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925A3CC264910CE0054354F /* CrossingAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingAlertTests.swift; sourceTree = "<group>"; };
+		4925A3CE264910CE0054354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4925A3D3264910CE0054354F /* CrossingAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossingAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4925A3D7264910CE0054354F /* CrossingAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingAlertUITests.swift; sourceTree = "<group>"; };
+		4925A3D9264910CE0054354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4925A3B4264910CD0054354F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A3C5264910CE0054354F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A3D0264910CE0054354F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4925A3AE264910CD0054354F = {
+			isa = PBXGroup;
+			children = (
+				4925A3B9264910CD0054354F /* CrossingAlert */,
+				4925A3CB264910CE0054354F /* CrossingAlertTests */,
+				4925A3D6264910CE0054354F /* CrossingAlertUITests */,
+				4925A3B8264910CD0054354F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4925A3B8264910CD0054354F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4925A3B7264910CD0054354F /* CrossingAlert.app */,
+				4925A3C8264910CE0054354F /* CrossingAlertTests.xctest */,
+				4925A3D3264910CE0054354F /* CrossingAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4925A3B9264910CD0054354F /* CrossingAlert */ = {
+			isa = PBXGroup;
+			children = (
+				4925A3BA264910CD0054354F /* CrossingAlertApp.swift */,
+				4925A3BC264910CD0054354F /* ContentView.swift */,
+				4925A3BE264910CE0054354F /* Assets.xcassets */,
+				4925A3C3264910CE0054354F /* Info.plist */,
+				4925A3C0264910CE0054354F /* Preview Content */,
+			);
+			path = CrossingAlert;
+			sourceTree = "<group>";
+		};
+		4925A3C0264910CE0054354F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4925A3C1264910CE0054354F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4925A3CB264910CE0054354F /* CrossingAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				4925A3CC264910CE0054354F /* CrossingAlertTests.swift */,
+				4925A3CE264910CE0054354F /* Info.plist */,
+			);
+			path = CrossingAlertTests;
+			sourceTree = "<group>";
+		};
+		4925A3D6264910CE0054354F /* CrossingAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4925A3D7264910CE0054354F /* CrossingAlertUITests.swift */,
+				4925A3D9264910CE0054354F /* Info.plist */,
+			);
+			path = CrossingAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4925A3B6264910CD0054354F /* CrossingAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4925A3DC264910CE0054354F /* Build configuration list for PBXNativeTarget "CrossingAlert" */;
+			buildPhases = (
+				4925A3B3264910CD0054354F /* Sources */,
+				4925A3B4264910CD0054354F /* Frameworks */,
+				4925A3B5264910CD0054354F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossingAlert;
+			productName = CrossingAlert;
+			productReference = 4925A3B7264910CD0054354F /* CrossingAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4925A3C7264910CE0054354F /* CrossingAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4925A3DF264910CE0054354F /* Build configuration list for PBXNativeTarget "CrossingAlertTests" */;
+			buildPhases = (
+				4925A3C4264910CE0054354F /* Sources */,
+				4925A3C5264910CE0054354F /* Frameworks */,
+				4925A3C6264910CE0054354F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4925A3CA264910CE0054354F /* PBXTargetDependency */,
+			);
+			name = CrossingAlertTests;
+			productName = CrossingAlertTests;
+			productReference = 4925A3C8264910CE0054354F /* CrossingAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4925A3D2264910CE0054354F /* CrossingAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4925A3E2264910CE0054354F /* Build configuration list for PBXNativeTarget "CrossingAlertUITests" */;
+			buildPhases = (
+				4925A3CF264910CE0054354F /* Sources */,
+				4925A3D0264910CE0054354F /* Frameworks */,
+				4925A3D1264910CE0054354F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4925A3D5264910CE0054354F /* PBXTargetDependency */,
+			);
+			name = CrossingAlertUITests;
+			productName = CrossingAlertUITests;
+			productReference = 4925A3D3264910CE0054354F /* CrossingAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4925A3AF264910CD0054354F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4925A3B6264910CD0054354F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4925A3C7264910CE0054354F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4925A3B6264910CD0054354F;
+					};
+					4925A3D2264910CE0054354F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4925A3B6264910CD0054354F;
+					};
+				};
+			};
+			buildConfigurationList = 4925A3B2264910CD0054354F /* Build configuration list for PBXProject "CrossingAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4925A3AE264910CD0054354F;
+			productRefGroup = 4925A3B8264910CD0054354F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4925A3B6264910CD0054354F /* CrossingAlert */,
+				4925A3C7264910CE0054354F /* CrossingAlertTests */,
+				4925A3D2264910CE0054354F /* CrossingAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4925A3B5264910CD0054354F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A3C2264910CE0054354F /* Preview Assets.xcassets in Resources */,
+				4925A3BF264910CE0054354F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A3C6264910CE0054354F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A3D1264910CE0054354F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4925A3B3264910CD0054354F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A3BD264910CD0054354F /* ContentView.swift in Sources */,
+				4925A3BB264910CD0054354F /* CrossingAlertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A3C4264910CE0054354F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A3CD264910CE0054354F /* CrossingAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4925A3CF264910CE0054354F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4925A3D8264910CE0054354F /* CrossingAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4925A3CA264910CE0054354F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4925A3B6264910CD0054354F /* CrossingAlert */;
+			targetProxy = 4925A3C9264910CE0054354F /* PBXContainerItemProxy */;
+		};
+		4925A3D5264910CE0054354F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4925A3B6264910CD0054354F /* CrossingAlert */;
+			targetProxy = 4925A3D4264910CE0054354F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4925A3DA264910CE0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4925A3DB264910CE0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4925A3DD264910CE0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossingAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrossingAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.CrossingAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4925A3DE264910CE0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossingAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrossingAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.CrossingAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4925A3E0264910CE0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossingAlertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.CrossingAlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossingAlert.app/CrossingAlert";
+			};
+			name = Debug;
+		};
+		4925A3E1264910CE0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossingAlertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.CrossingAlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossingAlert.app/CrossingAlert";
+			};
+			name = Release;
+		};
+		4925A3E3264910CE0054354F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossingAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.CrossingAlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossingAlert;
+			};
+			name = Debug;
+		};
+		4925A3E4264910CE0054354F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossingAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0210510.CrossingAlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossingAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4925A3B2264910CD0054354F /* Build configuration list for PBXProject "CrossingAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A3DA264910CE0054354F /* Debug */,
+				4925A3DB264910CE0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4925A3DC264910CE0054354F /* Build configuration list for PBXNativeTarget "CrossingAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A3DD264910CE0054354F /* Debug */,
+				4925A3DE264910CE0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4925A3DF264910CE0054354F /* Build configuration list for PBXNativeTarget "CrossingAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A3E0264910CE0054354F /* Debug */,
+				4925A3E1264910CE0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4925A3E2264910CE0054354F /* Build configuration list for PBXNativeTarget "CrossingAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4925A3E3264910CE0054354F /* Debug */,
+				4925A3E4264910CE0054354F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4925A3AF264910CD0054354F /* Project object */;
+}
